@@ -88,8 +88,8 @@ if __name__ == "__main__":
 
     print("Task: ", content)
     print("Project Name: ", project_name)
-    print("Due Date: ", "N/A" if due_string=="" else due_string)
-    print("Priority: ", priority) 
+    print("Due Date: ", "N/A" if due_string == "" else due_string)
+    print("Priority: ", 5 - priority) 
 
     project_id = searchProjectID(project_name)
 
